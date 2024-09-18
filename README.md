@@ -4,7 +4,7 @@ CodeX is a German beverage company that is aiming to make its mark in the Indian
 Their Marketing team is responsible for increasing brand awareness, market share, and product development. They conducted a survey in those 10 cities and received results from 10k respondents. 
 
 ## Data Structure & Transformation
-The dataset consists of 3 CSV files: : dim_respondents; dim_cities; fact_survey_responses
+The dataset consists of 3 CSV files dim_respondents; dim_cities; fact_survey_responses
 
 ![](Read-me_images/dataset_erd.png)
 
