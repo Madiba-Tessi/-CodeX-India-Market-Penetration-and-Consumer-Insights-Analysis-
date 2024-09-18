@@ -3,11 +3,27 @@ CodeX is a German beverage company that is aiming to make its mark in the Indian
 
 Their Marketing team is responsible for increasing brand awareness, market share, and product development. They conducted a survey in those 10 cities and received results from 10k respondents. 
 
+## Data Structure & Transformation
+The dataset consists of 3 CSV files: : dim_respondents; dim_cities; fact_survey_responses
+
+![](Read-me_images/dataset_erd.png)
+
+o Some respondents’ answers were inconsistent. For instance, a person is less likely to have tasted the drink if they haven’t heard about it. I had to filter out all those incoherent answers when needed for the 
+   visualization.
+   
+o I created new dimensions with Groups in Tableau at the visualization level. The Five consumption frequency types have been grouped into Three. 
+
+
+![image](https://github.com/user-attachments/assets/8b0d2da3-6f37-42e1-a12c-fbcf1fe05d8e)
+
+
+
+
 ### Key Insights
 
 #### Demographics & Target Audience
 
-![RC6-Dash](Read-me_images/Dashboard_SS1.png)
+![Dashboard_SS1](https://github.com/user-attachments/assets/7f383eb7-43a0-4955-abec-cf000d03e684)
 
 
 Male Dominance: 60% of energy drink consumers are male, indicating a strong male demographic presence.
